@@ -1,0 +1,9 @@
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.csproj.AssemblyReference.cache
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.csproj.CoreCompileInputs.cache
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.MvcApplicationPartsAssemblyInfo.cs
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.MvcApplicationPartsAssemblyInfo.cache
+/home/Coder/Escritorio/AssestmentTecnico/Api/obj/Debug/net10.0/Api.sourcelink.json

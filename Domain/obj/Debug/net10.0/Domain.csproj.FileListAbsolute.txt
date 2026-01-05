@@ -1,0 +1,12 @@
+/home/Coder/Escritorio/AssestmentTecnico/Domain/bin/Debug/net10.0/Domain.deps.json
+/home/Coder/Escritorio/AssestmentTecnico/Domain/bin/Debug/net10.0/Domain.dll
+/home/Coder/Escritorio/AssestmentTecnico/Domain/bin/Debug/net10.0/Domain.pdb
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.AssemblyInfoInputs.cache
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.AssemblyInfo.cs
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.csproj.CoreCompileInputs.cache
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.sourcelink.json
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.dll
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/refint/Domain.dll
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/Domain.pdb
+/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/Debug/net10.0/ref/Domain.dll
