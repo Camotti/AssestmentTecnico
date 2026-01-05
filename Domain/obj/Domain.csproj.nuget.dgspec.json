@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/Coder/Escritorio/AssestmentTecnico/Domain/Domain.csproj": {}
+    "/home/Coder/RiderProjects/AssestmentTecnico/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/home/Coder/Escritorio/AssestmentTecnico/Domain/Domain.csproj": {
+    "/home/Coder/RiderProjects/AssestmentTecnico/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Coder/Escritorio/AssestmentTecnico/Domain/Domain.csproj",
+        "projectUniqueName": "/home/Coder/RiderProjects/AssestmentTecnico/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/Coder/Escritorio/AssestmentTecnico/Domain/Domain.csproj",
+        "projectPath": "/home/Coder/RiderProjects/AssestmentTecnico/Domain/Domain.csproj",
         "packagesPath": "/home/Coder/.nuget/packages/",
-        "outputPath": "/home/Coder/Escritorio/AssestmentTecnico/Domain/obj/",
+        "outputPath": "/home/Coder/RiderProjects/AssestmentTecnico/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/Coder/.nuget/NuGet/NuGet.Config"
