@@ -4098,11 +4098,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/Coder/Escritorio/AssestmentTecnico/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/Coder/RiderProjects/AssestmentTecnico/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/Coder/Escritorio/AssestmentTecnico/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/home/Coder/RiderProjects/AssestmentTecnico/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/home/Coder/.nuget/packages/",
-      "outputPath": "/home/Coder/Escritorio/AssestmentTecnico/Infrastructure/obj/",
+      "outputPath": "/home/Coder/RiderProjects/AssestmentTecnico/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/Coder/.nuget/NuGet/NuGet.Config"
@@ -4117,11 +4117,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/Coder/Escritorio/AssestmentTecnico/Application/Application.csproj": {
-              "projectPath": "/home/Coder/Escritorio/AssestmentTecnico/Application/Application.csproj"
+            "/home/Coder/RiderProjects/AssestmentTecnico/Application/Application.csproj": {
+              "projectPath": "/home/Coder/RiderProjects/AssestmentTecnico/Application/Application.csproj"
             },
-            "/home/Coder/Escritorio/AssestmentTecnico/Domain/Domain.csproj": {
-              "projectPath": "/home/Coder/Escritorio/AssestmentTecnico/Domain/Domain.csproj"
+            "/home/Coder/RiderProjects/AssestmentTecnico/Domain/Domain.csproj": {
+              "projectPath": "/home/Coder/RiderProjects/AssestmentTecnico/Domain/Domain.csproj"
             }
           }
         }

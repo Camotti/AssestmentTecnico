@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ToabcDdHEU8=",
+  "dgSpecHash": "C22u7/ScW1o=",
   "success": true,
-  "projectFilePath": "/home/Coder/Escritorio/AssestmentTecnico/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/home/Coder/RiderProjects/AssestmentTecnico/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/Coder/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/Coder/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/10.0.0/microsoft.aspnetcore.authentication.jwtbearer.10.0.0.nupkg.sha512",

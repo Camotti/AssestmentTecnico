@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dJqSVrm22A8=",
+  "dgSpecHash": "LauXwLHkzno=",
   "success": true,
-  "projectFilePath": "/home/Coder/Escritorio/AssestmentTecnico/Api/Api.csproj",
+  "projectFilePath": "/home/Coder/RiderProjects/AssestmentTecnico/Api/Api.csproj",
   "expectedPackageFiles": [
     "/home/Coder/.nuget/packages/azure.core/1.47.1/azure.core.1.47.1.nupkg.sha512",
     "/home/Coder/.nuget/packages/azure.identity/1.14.2/azure.identity.1.14.2.nupkg.sha512",
