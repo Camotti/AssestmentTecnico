@@ -58,7 +58,7 @@ builder.Services.AddSwaggerGen(options =>
 
 // Configure Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseMySqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Configure Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
