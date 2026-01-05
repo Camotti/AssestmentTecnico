@@ -80,6 +80,19 @@ La API estará disponible en:
 - HTTP: `http://localhost:5000`
 - Swagger: `https://localhost:5001/swagger`
 
+### 5. Ejecutar el Frontend
+
+```bash
+cd frontend
+npm install  # Solo la primera vez
+npm run dev
+```
+
+El frontend estará disponible en:
+- `http://localhost:5173`
+
+**Nota:** Asegúrate de que la API esté corriendo antes de usar el frontend.
+
 ## 🔐 Credenciales de Usuario de Prueba
 
 Al iniciar la API por primera vez, se crea automáticamente un usuario de prueba:
@@ -166,7 +179,11 @@ AssestmentTecnico/
 │   ├── Controllers/
 │   └── Middleware/
 ├── Tests/                  # Tests unitarios
-└── Frontend/               # Aplicación React (pendiente)
+└── frontend/               # Aplicación React
+    ├── src/
+    │   ├── components/     # Login, Courses, Lessons
+    │   └── services/       # API service layer
+    └── public/
 ```
 
 ## 🔧 Tecnologías Utilizadas
@@ -178,6 +195,13 @@ AssestmentTecnico/
 - ASP.NET Core Identity
 - JWT Bearer Authentication
 - Swagger/OpenAPI
+
+### Frontend
+- React 18
+- Vite 7.3
+- React Router DOM 7
+- Axios
+- CSS3 (Vanilla CSS con gradientes y animaciones)
 
 ### Testing
 - xUnit 2.9.3
