@@ -28,7 +28,7 @@ function Login() {
                 }
                 await authService.register(email, password, confirmPassword);
             }
-            navigate('/courses');
+            navigate('/dashboard');
         } catch (err) {
             setError(err.message);
         } finally {

@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { authService } from './services/api';
 import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 import Courses from './components/Courses';
 import Lessons from './components/Lessons';
 import './App.css';
@@ -14,6 +15,14 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route
+          path="/dashboard"
+          element={
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
+          }
+        />
         <Route
           path="/courses"
           element={

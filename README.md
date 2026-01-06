@@ -12,6 +12,8 @@ API REST desarrollada con .NET 10 para la gestión de cursos y lecciones, siguie
 - ✅ Paginación y filtros
 - ✅ Swagger/OpenAPI documentación
 - ✅ 5 Tests unitarios con xUnit, Moq y FluentAssertions
+- ✅ Frontend React con diseño moderno
+- ✅ Docker y Docker Compose para containerización
 
 ## 📋 Prerrequisitos
 
@@ -92,6 +94,61 @@ El frontend estará disponible en:
 - `http://localhost:5173`
 
 **Nota:** Asegúrate de que la API esté corriendo antes de usar el frontend.
+
+## 🐳 Ejecutar con Docker (Recomendado para Producción)
+
+### Prerequisitos
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Iniciar todos los servicios
+
+```bash
+# Construir y levantar todos los contenedores
+docker-compose up --build
+
+# O en modo detached (background)
+docker-compose up -d --build
+```
+
+Esto iniciará:
+- **PostgreSQL** en puerto 5432
+- **API** en puerto 5025
+- **Frontend** en puerto 80
+
+### Acceder a la aplicación
+
+- **Frontend:** `http://localhost`
+- **API:** `http://localhost:5025`
+- **Swagger:** `http://localhost:5025/swagger`
+
+### Comandos útiles de Docker
+
+```bash
+# Ver logs de todos los servicios
+docker-compose logs -f
+
+# Ver logs de un servicio específico
+docker-compose logs -f api
+docker-compose logs -f frontend
+docker-compose logs -f postgres
+
+# Detener todos los servicios
+docker-compose down
+
+# Detener y eliminar volúmenes (limpia la base de datos)
+docker-compose down -v
+
+# Reconstruir un servicio específico
+docker-compose up -d --build api
+```
+
+### Variables de Entorno
+
+Las variables de entorno se configuran en `docker-compose.yml`:
+- `ConnectionStrings__DefaultConnection`: Conexión a PostgreSQL
+- `JwtSettings__*`: Configuración de JWT
+- `VITE_API_URL`: URL de la API para el frontend
 
 ## 🔐 Credenciales de Usuario de Prueba
 
