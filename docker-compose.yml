@@ -1,0 +1,64 @@
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: onlinecourses-db
+    environment:
+      POSTGRES_DB: onlinecourses
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Qwe.123*
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - onlinecourses-network
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # .NET API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: onlinecourses-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=onlinecourses;Username=postgres;Password=Qwe.123*
+      - JwtSettings__Secret=your-super-secret-key-that-is-at-least-32-characters-long-for-security
+      - JwtSettings__Issuer=OnlineCoursesApi
+      - JwtSettings__Audience=OnlineCoursesClient
+      - JwtSettings__ExpirationInMinutes=60
+    ports:
+      - "5025:5025"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - onlinecourses-network
+    restart: unless-stopped
+
+  # React Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: onlinecourses-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - onlinecourses-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  onlinecourses-network:
+    driver: bridge
